@@ -1,0 +1,45 @@
+.bg-section {
+    position: relative;
+    min-height: 850px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 60px;
+
+    .section-title {
+        margin-bottom: 84px;
+    }
+}
+
+.bg-section__background {
+    max-height: 850px;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .2;
+}
+
+.bg-section__container {
+    position: relative;
+}
+
+.bg-section__img-wrap {
+    position: relative;
+    min-height: 582px;
+}
+
+.bg-section__img {
+    position: absolute;
+
+    &:first-of-type {
+        left: 48%;
+        transform: translateX(-50%);
+    }
+
+    &:last-of-type {
+        bottom: -91px;
+        right: 227px;
+    }
+}

@@ -1,0 +1,128 @@
+.accordion {
+    padding-top: 50px;
+    padding-bottom: 120px;
+}
+
+.accordion__wrap {
+    margin-top: 89px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.accordion__img-wrap {
+    max-width: 47.5%;
+    width: 100%;
+}
+
+.accordion__img {
+    max-width: 100%;
+    width: 100%;
+}
+
+.accordion__container {
+    max-width: 50%;
+    width: 100%;
+}
+
+.accordion__box {
+    margin-bottom: 11px;
+
+    &:last-of-type {
+        margin-bottom: 0;
+    }
+
+    &.active {
+        .accordion__box-head-arrow {
+            transform: translateY(-50%) rotate(-180deg);
+            transition: $dur $ease;
+        }
+
+        .accordion__box-body {
+            display: block;
+        }
+    }
+}
+
+.accordion__box-head {
+    position: relative;
+    padding: 16px 60px;
+    background-color: $white;
+    border: 1px solid #e5e5e5;
+    transition: $dur $ease;
+    cursor: pointer;
+
+    &:hover {
+        .accordion__box-head-title {
+            color: $green;
+            transition: $dur $ease;
+        }
+
+        .accordion__box-head-arrow {
+            &::before {
+                color: $green;
+                transition: $dur $ease;
+            }
+        }
+    }
+}
+
+.accordion__box-head-icon {
+    position: absolute;
+    left: 15px;
+    top: 0;
+
+    &::before {
+        content: '\f170';
+        color: $green;
+        font-size: 40px;
+        height: 40px;
+        font-family: $font-icon;
+    }
+}
+
+.accordion__box-head-title {
+    font-size: 14px;
+    font-family: $font-main;
+    text-transform: uppercase;
+    color: $grey-dark;
+    font-weight: 600;
+    transition: $dur $ease;
+    letter-spacing: -.5px;
+}
+
+.accordion__box-head-arrow {
+    position: absolute;
+    right: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: $dur $ease;
+
+    &::before {
+        content: '\f063';
+        color: $grey-lighter;
+        font-size: 20px;
+        height: 20px;
+        font-family: $font-icon;
+        transition: $dur $ease;
+    }
+}
+
+.accordion__box-body {
+    padding: 17px 25px 21px 18px;
+    border: 1px solid #e5e5e5;
+    border-top: none;
+    display: none;
+}
+
+.accordion__box-body-inner {
+    max-height: 143px;
+    overflow-y: auto;
+    padding-right: 15px;
+
+    .entry-content {
+        max-width: 100%;
+        margin: 0;
+        text-align: left;
+        font-style: italic;
+    }
+}

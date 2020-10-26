@@ -1,0 +1,17 @@
+{
+  "name": "starter-v1",
+  "version": "1.0.0",
+  "description": "Starter",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Igor Doric",
+  "license": "ISC",
+  "dependencies": {
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-sass": "^4.1.0"
+  }
+}

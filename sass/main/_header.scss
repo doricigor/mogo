@@ -1,0 +1,87 @@
+/*--------------------------------------------------------------
+## Header
+--------------------------------------------------------------*/
+.header {
+    position: relative;
+    z-index: 1;
+}
+
+.header__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 21px;
+    padding-bottom: 21px;
+}
+
+.header__logo-wrap {
+
+}
+
+.header__logo {
+    font-size: 30px;
+    line-height: 1.3;
+    font-family: $font-main;
+    color: $white;
+    font-weight: 600;
+
+    &:hover {
+        text-decoration: none;
+        color: $white;
+    }
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+    padding-top: 7px;
+}
+
+.header__nav-wrap {
+
+}
+
+.header__link-wrap {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.header__link {
+    width: 19px;
+    height: 19px;
+    margin-left: 40px;
+    position: relative;
+
+    &:hover {
+        &::before {
+            color: $yellow;
+            transition: $dur $ease;
+        }
+    }
+
+    &::before {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: $white;
+        font-family: $font-icon;
+        font-size: 19px;
+        height: 26px;
+        width: 14px;
+        transition: $dur $ease;
+    }
+
+    &:nth-of-type(1) {
+        &::before {
+            content: '\f07a';
+        }
+    }
+
+    &:nth-of-type(2) {
+        &::before {
+            content: '\f002';
+        }
+    }
+}

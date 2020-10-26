@@ -1,0 +1,40 @@
+.count {
+    background-color: $green;
+}
+
+.count__wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.count__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+    border-right: 1px solid rgba($white, .3);
+    padding: 81px 0;
+
+    &:first-of-type {
+        border-left: 1px solid rgba($white, .3);
+    }
+}
+
+.count__box-num {
+    font-family: $font-main;
+    font-size: 72px;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 15px;
+    color: $white;
+    line-height: 1;
+}
+
+.count__box-text {
+    font-family: $font-main;
+    font-size: 14px;
+    color: $white;
+    display: block;
+    text-transform: uppercase;
+}

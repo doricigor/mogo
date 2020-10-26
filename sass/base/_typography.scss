@@ -1,0 +1,76 @@
+.page-title {
+	font-family: $font-main;
+	font-size: 150px;
+	font-weight: 700;
+	line-height: 140px;
+	text-transform: uppercase;
+	color: $white;
+	position: relative;
+	text-align: center;
+	letter-spacing: -4.9px;
+
+	&::after {
+		content: '';
+		position: absolute;
+		bottom: -59px;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 60px;
+		height: 2px;
+		background-color: $white;
+	}
+}
+
+.page-pretitle {
+	color: $white;
+	font-size: 72px;
+	font-family: $font-second;
+}
+
+.section-title {
+	color: $grey-dark;
+	font-family: $font-main;
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+	position: relative;
+	letter-spacing: -.7px;
+	margin-bottom: 35px;
+	text-align: center;
+
+	&::after {
+		content: '';
+		position: absolute;
+		bottom: -35px;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 60px;
+		height: 3px;
+		background-color: $red;
+	}
+}
+
+.section-pretitle {
+	color: $grey-dark;
+	font-size: 24px;
+	font-family: $font-second;
+	letter-spacing: -3px;
+	margin-bottom: 13px;
+	text-align: center;
+}
+
+.entry-content {
+	max-width: 84%;
+	width: 100%;
+	text-align: center;
+	margin: 76px auto 0;
+
+	p {
+		font-family: $font-third;
+		font-size: 15px;
+		line-height: 24px;
+		color: $grey;
+		margin-bottom: 5px;
+		letter-spacing: .1px;
+	}
+}

@@ -1,0 +1,101 @@
+.list {
+    padding-top: 108px;
+    padding-bottom: 26px;
+
+    .entry-content {
+        margin: 0;
+        text-align: left;
+        max-width: 100%;
+
+        p {
+
+        }
+    }
+}
+
+.list__row {
+    margin-top: 99px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+
+    &::after {
+        content: '';
+        background-color: $grey-light;
+        height: 1px;
+        width: 100%;
+        max-width: 100%;
+        left: 0;
+        top: 37%;
+        position: absolute;
+    }
+}
+
+.list__box-wrap {
+    max-width: 33.33%;
+    width: 100%;
+    margin-bottom: 87px;
+
+    &:nth-child(1) {
+        .list__box::before {
+            content: '\f270';
+        }
+    }
+
+    &:nth-child(2) {
+        .list__box::before {
+            content: '\f270';
+        }
+    }
+
+    &:nth-child(3) {
+        .list__box::before {
+            content: '\f270';
+        }
+    }
+
+    &:nth-child(4) {
+        .list__box::before {
+            content: '\f270';
+        }
+    }
+
+    &:nth-child(5) {
+        .list__box::before {
+            content: '\f270';
+        }
+    }
+
+    &:nth-child(6) {
+        .list__box::before {
+            content: '\f270';
+        }
+    }
+}
+
+.list__box {
+    padding-left: 91px;
+    position: relative;
+
+    &::before {
+        position: absolute;
+        top: -3px;
+        left: 31px;
+        color: $green;
+        font-family: $font-icon;
+        font-size: 35px;
+        height: 35px;
+    }
+}
+
+.list__box-title {
+    display: block;
+    font-family: $font-main;
+    font-size: 14px;
+    color: $grey-dark;
+    margin-bottom: 9px;
+    text-transform: uppercase;
+    letter-spacing: -.3px;
+    font-weight: 400;
+}

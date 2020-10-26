@@ -1,0 +1,100 @@
+.hover-section {
+    padding-top: 90px;
+    padding-bottom: 110px;
+}
+
+.hover-section__wrap {
+    margin-top: 99px;
+}
+
+.hover-section__box-wrap {
+    
+}
+
+.hover-section__box {
+    background-color: $green;
+    min-height: 250px;
+    max-width: 382px;
+
+    &:hover {
+        .hover-section__box-inner {
+            transform: translate(-10px, -10px);
+            transition: .5s $ease;
+
+            &::before {
+                content: '';
+                background: $gradient;
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                transition: $dur $ease;
+                opacity: 1;
+            }
+        }
+
+        .hover-section__box-inner-content {
+            opacity: 1;
+            transition: $dur $ease;
+        }
+    }
+}
+
+.hover-section__box-inner {
+    position: relative;
+    overflow: hidden;
+    max-height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s $ease;
+
+    &::before {
+        content: '';
+        background: $gradient;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 1%;
+        width: 100%;
+        opacity: 0;
+        transition: $dur $ease;
+    }
+}
+
+.hover-section__box-inner-img {
+    max-width: 100%;
+    width: 100%;
+}
+
+.hover-section__box-inner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: $dur $ease;
+    text-align: center;
+
+    i {
+        font-family: $font-icon;
+        color: $white;
+        font-size: 24px;
+        width: 17px;
+        height: 24px;
+        font-style: normal;
+        margin-bottom: 14px;
+        display: inline-block;
+        text-align: center;
+    }
+
+    span {
+        font-family: $font-main;
+        font-size: 18px;
+        font-weight: 700;
+        color: $white;
+        text-transform: uppercase;
+        display: block;
+    }
+}

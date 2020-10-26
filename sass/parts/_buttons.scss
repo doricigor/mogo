@@ -1,0 +1,30 @@
+.btn {
+    display: inline-block;
+	text-align: center;
+	background-color: transparent;
+	color: $white;
+	font-size: 14px;
+	font-family: $font-main;
+	font-weight: 700;
+	padding: 7px 20px;
+	outline: none;
+	min-width: 160px;
+	transition: $dur $ease;
+	position: relative;
+	border: 2px solid $white;
+	cursor: pointer;
+	text-transform: uppercase;
+	letter-spacing: -.6px;
+
+	&:focus {
+		outline: none;
+		box-shadow: none;
+	}
+    
+    &:hover {
+		color: $white;
+		background-color: $red;
+		border: 2px solid $red;
+        transition: $dur $ease;
+    }
+}

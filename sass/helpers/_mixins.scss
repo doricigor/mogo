@@ -1,0 +1,33 @@
+// Media query:
+@mixin mq ($breakpoint) {
+
+    @if $breakpoint==sm {
+        @media screen and (max-width: 576px) {
+            @content
+        };
+    }
+
+    @if $breakpoint==md {
+        @media screen and (max-width: 767px) {
+            @content
+        };
+    }
+
+    @if $breakpoint==lg {
+        @media screen and (max-width: 991px) {
+            @content
+        };
+    }
+
+    @if $breakpoint==xl {
+        @media screen and (max-width: 1260px) {
+            @content
+        };
+    }
+
+    @else {
+        @media screen and (max-width: $breakpoint) {
+            @content
+        };
+    }
+}

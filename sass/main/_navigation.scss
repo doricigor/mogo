@@ -1,0 +1,46 @@
+/*--------------------------------------------------------------
+## Navigation
+--------------------------------------------------------------*/
+.nav {
+
+}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__list-item {
+    margin-left: 55px;
+}
+
+.nav__list-link {
+    font-size: 14px;
+    color: $white;
+    font-family: $font-main;
+    position: relative;
+    transition: $dur $ease;
+    text-transform: uppercase;
+
+    &:hover {
+        color: $yellow;
+        transition: $dur $ease;
+
+        &::after {
+            transform: scale(1);
+            transition: $dur $ease;
+        }
+    }
+
+    &::after {
+        content: '';
+        background-color: $yellow;
+        height: 3px;
+        width: 100%;
+        display: inline-block;
+        position: absolute;
+        bottom: -11px;
+        left: 0;
+        transform: scale(0);
+        transition: $dur $ease;
+    }
+}

@@ -1,0 +1,43 @@
+/*--------------------------------------------------------------
+## Fonts
+--------------------------------------------------------------*/
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../../fonts/Montserrat-ExtraBold.woff2') format('woff2'),
+			url('../../fonts/Montserrat-ExtraBold.woff') format('woff'),
+			url('../../fonts/Montserrat-ExtraBold.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../../fonts/Montserrat-Regular.woff2') format('woff2'),
+			url('../../fonts/Montserrat-Regular.woff') format('woff'),
+			url('../../fonts/Montserrat-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../../fonts/Montserrat-Bold.woff2') format('woff2'),
+			url('../../fonts/Montserrat-Bold.woff') format('woff'),
+			url('../../fonts/Montserrat-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Kaushan Script';
+	src: url('../../fonts/KaushanScript-Regular.ttf') format('ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../../fonts/Roboto-Regular.ttf') format('ttf');
+	font-weight: normal;
+	font-style: normal;
+}
