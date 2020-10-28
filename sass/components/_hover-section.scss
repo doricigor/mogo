@@ -98,3 +98,79 @@
         display: block;
     }
 }
+
+.hover-section--alt {
+
+    .hover-section__box {
+        margin-bottom: 25px;
+    }
+
+    .hover-section__box-inner {
+        max-height: 470px;
+    }
+
+    .hover-section__box-inner-img {
+        width: auto;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .hover-section__box-inner-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hover-section__box-inner-content-link {
+        position: relative;
+        background-color: $yellow;
+        width: 56px;
+        height: 56px;
+        border-right: 1px solid rgba($red, .6);
+        transition: $dur $ease;
+
+        &:hover {
+            background-color: $red;
+
+            i {
+                color: $white;
+            }
+        }
+
+        &:last-child {
+            border-right: none;
+        }
+
+        i {
+            color: $red;
+            font-family: $font-icon;
+            font-size: 28px;
+            height: 42px;
+            width: 23px;
+            margin-bottom: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+
+    .hover-section__box-info-name {
+        display: block;
+        text-align: center;
+        font-size: 16px;
+        color: $black;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-bottom: 2px;
+        letter-spacing: -.4px;
+    }
+
+    .hover-section__box-info-rola {
+        font-size: 15px;
+        color: $grey;
+        font-style: italic;
+        display: block;
+        text-align: center;
+    }
+}

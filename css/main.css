@@ -760,6 +760,64 @@ html {
     text-transform: uppercase;
     display: block; }
 
+.hover-section--alt .hover-section__box {
+  margin-bottom: 25px; }
+
+.hover-section--alt .hover-section__box-inner {
+  max-height: 470px; }
+
+.hover-section--alt .hover-section__box-inner-img {
+  width: auto;
+  height: 100%;
+  object-fit: cover; }
+
+.hover-section--alt .hover-section__box-inner-content {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.hover-section--alt .hover-section__box-inner-content-link {
+  position: relative;
+  background-color: #fce38a;
+  width: 56px;
+  height: 56px;
+  border-right: 1px solid rgba(243, 129, 129, 0.6);
+  transition: 350ms ease; }
+  .hover-section--alt .hover-section__box-inner-content-link:hover {
+    background-color: #f38181; }
+    .hover-section--alt .hover-section__box-inner-content-link:hover i {
+      color: #fff; }
+  .hover-section--alt .hover-section__box-inner-content-link:last-child {
+    border-right: none; }
+  .hover-section--alt .hover-section__box-inner-content-link i {
+    color: #f38181;
+    font-family: "FontAwesome";
+    font-size: 28px;
+    height: 42px;
+    width: 23px;
+    margin-bottom: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+
+.hover-section--alt .hover-section__box-info-name {
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 2px;
+  letter-spacing: -.4px; }
+
+.hover-section--alt .hover-section__box-info-rola {
+  font-size: 15px;
+  color: #595959;
+  font-style: italic;
+  display: block;
+  text-align: center; }
+
 .count {
   background-color: #95e1d3; }
 
@@ -1055,3 +1113,7 @@ html {
     background-color: #f38181;
     height: 4px;
     width: 60px; }
+
+.logo__img {
+  width: 100%;
+  max-width: 100%; }

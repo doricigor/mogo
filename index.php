@@ -310,6 +310,121 @@
                     </div>
                 </div>
             </div>
+            <!-- Hover section alt -->
+            <div class="hover-section hover-section--alt">
+                <div class="container">
+                    <h3 class="section-pretitle">Who we are</h3>
+                    <h2 class="section-title">Meet our team</h2>
+                    <div class="entry-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    </div>
+                    <div class="hover-section__wrap">
+                        <div class="row">
+                            <div class="col-lg-4 hover-section__box-wrap">
+                                <div class="hover-section__box">
+                                    <div class="hover-section__box-inner">
+                                        <img class="hover-section__box-inner-img" src="img/story-alt-1.jpg" alt="Story img">
+                                        <div class="hover-section__box-inner-content">
+                                            <a class="hover-section__box-inner-content-link" href="javascript:;">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </a>
+                                            <a class="hover-section__box-inner-content-link" href="javascript:;">
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
+                                            <a class="hover-section__box-inner-content-link" href="javascript:;">
+                                                <i class="fab fa-pinterest-p"></i>
+                                            </a>
+                                            <a class="hover-section__box-inner-content-link" href="javascript:;">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hover-section__box-info">
+                                    <span class="hover-section__box-info-name">Matthew Dix</span>
+                                    <span class="hover-section__box-info-rola">Graphic Desin</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 hover-section__box-wrap">
+                                <div class="hover-section__box">
+                                    <div class="hover-section__box-inner">
+                                        <img class="hover-section__box-inner-img" src="img/story-alt-2.jpg" alt="Story img">
+                                        <div class="hover-section__box-inner-content">
+                                            <a class="hover-section__box-inner-content-link" href="javascript:;">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </a>
+                                            <a class="hover-section__box-inner-content-link" href="javascript:;">
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
+                                            <a class="hover-section__box-inner-content-link" href="javascript:;">
+                                                <i class="fab fa-pinterest-p"></i>
+                                            </a>
+                                            <a class="hover-section__box-inner-content-link" href="javascript:;">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hover-section__box-info">
+                                    <span class="hover-section__box-info-name">Matthew Dix</span>
+                                    <span class="hover-section__box-info-rola">Graphic Desin</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 hover-section__box-wrap">
+                                <div class="hover-section__box">
+                                    <div class="hover-section__box-inner">
+                                        <img class="hover-section__box-inner-img" src="img/story-alt-3.jpg" alt="Story img">
+                                        <div class="hover-section__box-inner-content">
+                                            <a class="hover-section__box-inner-content-link" href="javascript:;">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </a>
+                                            <a class="hover-section__box-inner-content-link" href="javascript:;">
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
+                                            <a class="hover-section__box-inner-content-link" href="javascript:;">
+                                                <i class="fab fa-pinterest-p"></i>
+                                            </a>
+                                            <a class="hover-section__box-inner-content-link" href="javascript:;">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hover-section__box-info">
+                                    <span class="hover-section__box-info-name">Matthew Dix</span>
+                                    <span class="hover-section__box-info-rola">Graphic Desin</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Logo section -->
+            <div class="logo">
+                <img class="logo__img" src="img/icons.jpg" alt="icon img">
+            </div>
+            <!-- Gallery -->
+            <div class="gallery">
+                <div class="container">
+                    <h3 class="section-pretitle">What we do</h3>
+                    <h2 class="section-title">Some of our work</h2>
+                    <div class="entry-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="col-lg-6"></div>
+                            <div class="col-lg-6"></div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="col-lg-6"></div>
+                            <div class="col-lg-6"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </main>
     </div>
 <?php
