@@ -5,6 +5,10 @@
 
 .testimonial__slider {
     position: relative;
+}
+
+.testimonial__container {
+    position: relative;
     padding: 0 60px;
 }
 
@@ -41,7 +45,6 @@
 .testimonial__slider-content {
     display: flex;
     align-items: center;
-    padding: 0 50px;
 }
 
 .testimonial__slider-content-img {
@@ -52,6 +55,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #f8f8f8;
 }
 
 .testimonial__slider-content-text {

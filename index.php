@@ -255,11 +255,11 @@
             <!-- Testimonial -->
             <div class="testimonial">
                 <div class="container testimonial__container">
+                    <div class="testimonial__slider-arrow testimonial__slider-arrow--left js-testimonial-left">
+                        <i class="fas fa-arrow-left"></i>
+                    </div>
                     <div class="testimonial__slider-wrap js-testimonial">
                         <div class="testimonial__slider">
-                            <div class="testimonial__slider-arrow testimonial__slider-arrow--left js-testimonial-left">
-                                <i class="fas fa-arrow-left"></i>
-                            </div>
                             <div class="testimonial__slider-content">
                                 <div class="testimonial__slider-content-img">
                                     <img src="img/testimonial.png" alt="img">
@@ -268,15 +268,9 @@
                                     <p class="testimonial__slider-content-text-paragraph">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
                                     <span class="testimonial__slider-content-text-name">Jon Doe</span>
                                 </div>
-                            </div>
-                            <div class="testimonial__slider-arrow testimonial__slider-arrow--right js-testimonial-right">
-                                <i class="fas fa-arrow-right"></i>
                             </div>
                         </div>
                         <div class="testimonial__slider">
-                            <div class="testimonial__slider-arrow testimonial__slider-arrow--left js-testimonial-left">
-                                <i class="fas fa-arrow-left"></i>
-                            </div>
                             <div class="testimonial__slider-content">
                                 <div class="testimonial__slider-content-img">
                                     <img src="img/testimonial.png" alt="img">
@@ -285,15 +279,9 @@
                                     <p class="testimonial__slider-content-text-paragraph">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
                                     <span class="testimonial__slider-content-text-name">Jon Doe</span>
                                 </div>
-                            </div>
-                            <div class="testimonial__slider-arrow testimonial__slider-arrow--right js-testimonial-right">
-                                <i class="fas fa-arrow-right"></i>
                             </div>
                         </div>
                         <div class="testimonial__slider">
-                            <div class="testimonial__slider-arrow testimonial__slider-arrow--left js-testimonial-left">
-                                <i class="fas fa-arrow-left"></i>
-                            </div>
                             <div class="testimonial__slider-content">
                                 <div class="testimonial__slider-content-img">
                                     <img src="img/testimonial.png" alt="img">
@@ -303,10 +291,10 @@
                                     <span class="testimonial__slider-content-text-name">Jon Doe</span>
                                 </div>
                             </div>
-                            <div class="testimonial__slider-arrow testimonial__slider-arrow--right js-testimonial-right">
-                                <i class="fas fa-arrow-right"></i>
-                            </div>
                         </div>
+                    </div>
+                    <div class="testimonial__slider-arrow testimonial__slider-arrow--right js-testimonial-right">
+                        <i class="fas fa-arrow-right"></i>
                     </div>
                 </div>
             </div>
@@ -412,16 +400,122 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                     </div>
                 </div>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="col-lg-6"></div>
-                            <div class="col-lg-6"></div>
+                <div class="container-fluid gallery__container">
+                    <div class="row gallery__row">
+                        <div class="col-lg-6 gallery__half">
+                            <div class="col-lg-6 gallery__half-inner">
+                                <div class="gallery__half-inner-img-wrap">
+                                    <div class="gallery__half-inner-img-info">
+                                        <i class="far fa-image"></i>
+                                        <span class="gallery__half-inner-img-info-title">Creatively Design</span>
+                                        <span class="gallery__half-inner-img-info-txt">Lorem ipsum dolor sit.</span>
+                                    </div>
+                                    <img class="gallery__half-inner-img" src="img/gallery-1" alt="img">
+                                </div>
+                                <div class="gallery__half-inner-img-wrap">
+                                    <div class="gallery__half-inner-img-info">
+                                        <i class="far fa-image"></i>
+                                        <span class="gallery__half-inner-img-info-title">Creatively Design</span>
+                                        <span class="gallery__half-inner-img-info-txt">Lorem ipsum dolor sit.</span>
+                                    </div>
+                                    <img class="gallery__half-inner-img" src="img/gallery-3" alt="img">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 gallery__half-inner">
+                                <div class="gallery__half-inner-img-wrap">
+                                    <div class="gallery__half-inner-img-info">
+                                        <i class="far fa-image"></i>
+                                        <span class="gallery__half-inner-img-info-title">Creatively Design</span>
+                                        <span class="gallery__half-inner-img-info-txt">Lorem ipsum dolor sit.</span>
+                                    </div>
+                                    <img class="gallery__half-inner-img" src="img/gallery-2" alt="img">
+                                </div>
+                                <div class="gallery__half-inner-img-wrap">
+                                    <div class="gallery__half-inner-img-info">
+                                        <i class="far fa-image"></i>
+                                        <span class="gallery__half-inner-img-info-title">Creatively Design</span>
+                                        <span class="gallery__half-inner-img-info-txt">Lorem ipsum dolor sit.</span>
+                                    </div>
+                                    <img class="gallery__half-inner-img" src="img/gallery-4" alt="img">
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-lg-6">
-                            <div class="col-lg-6"></div>
-                            <div class="col-lg-6"></div>
+                        <div class="col-lg-6 gallery__half">
+                            <div class="col-lg-6 gallery__half-inner gallery__half-inner--big">
+                                <div class="gallery__half-inner-img-wrap">
+                                    <div class="gallery__half-inner-img-info">
+                                        <i class="far fa-image"></i>
+                                        <span class="gallery__half-inner-img-info-title">Creatively Design</span>
+                                        <span class="gallery__half-inner-img-info-txt">Lorem ipsum dolor sit.</span>
+                                    </div>
+                                    <img class="gallery__half-inner-img" src="img/gallery-5" alt="img">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 gallery__half-inner">
+                                <div class="gallery__half-inner-img-wrap">
+                                    <div class="gallery__half-inner-img-info">
+                                        <i class="far fa-image"></i>
+                                        <span class="gallery__half-inner-img-info-title">Creatively Design</span>
+                                        <span class="gallery__half-inner-img-info-txt">Lorem ipsum dolor sit.</span>
+                                    </div>
+                                    <img class="gallery__half-inner-img" src="img/gallery-6" alt="img">
+                                </div>
+                                <div class="gallery__half-inner-img-wrap">
+                                    <div class="gallery__half-inner-img-info">
+                                        <i class="far fa-image"></i>
+                                        <span class="gallery__half-inner-img-info-title">Creatively Design</span>
+                                        <span class="gallery__half-inner-img-info-txt">Lorem ipsum dolor sit.</span>
+                                    </div>
+                                    <img class="gallery__half-inner-img" src="img/gallery-7" alt="img">
+                                </div>
+                            </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Testimonial alt -->
+            <div class="testimonial testimonial--alt">
+                <div class="container testimonial__container">
+                    <div class="testimonial__slider-arrow testimonial__slider-arrow--left js-testimonial-left">
+                        <i class="fas fa-arrow-left"></i>
+                    </div>
+                    <div class="testimonial__slider-wrap js-testimonial">
+                        <div class="testimonial__slider">
+                            <div class="testimonial__slider-content">
+                                <div class="testimonial__slider-content-img">
+                                    <img src="img/testimonial.png" alt="img">
+                                </div>
+                                <div class="testimonial__slider-content-text">
+                                    <p class="testimonial__slider-content-text-paragraph">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+                                    <span class="testimonial__slider-content-text-name">Jon Doe</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial__slider">
+                            <div class="testimonial__slider-content">
+                                <div class="testimonial__slider-content-img">
+                                    <img src="img/testimonial.png" alt="img">
+                                </div>
+                                <div class="testimonial__slider-content-text">
+                                    <p class="testimonial__slider-content-text-paragraph">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+                                    <span class="testimonial__slider-content-text-name">Jon Doe</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial__slider">
+                            <div class="testimonial__slider-content">
+                                <div class="testimonial__slider-content-img">
+                                    <img src="img/testimonial.png" alt="img">
+                                </div>
+                                <div class="testimonial__slider-content-text">
+                                    <p class="testimonial__slider-content-text-paragraph">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+                                    <span class="testimonial__slider-content-text-name">Jon Doe</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial__slider-arrow testimonial__slider-arrow--right js-testimonial-right">
+                        <i class="fas fa-arrow-right"></i>
                     </div>
                 </div>
             </div>

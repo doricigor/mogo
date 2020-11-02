@@ -54,18 +54,23 @@ const app = {
             rows: 0
         });
 
-        this.$testimonial.slick({
-            infinite: true,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            speed: 2000,
-            dots: true,
-            appendDots: false,
-            autoplay: false,
-            arrows: true,
-            prevArrow: $('.js-testimonial-left'),
-            nextArrow: $('.js-testimonial-right'),
-            rows: 0
+        this.$testimonial.each(function() {
+            const prev = $(this).parent().find('.js-testimonial-left');
+            const next = $(this).parent().find('.js-testimonial-right');
+
+            $(this).slick({
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                speed: 2000,
+                dots: true,
+                appendDots: false,
+                autoplay: false,
+                arrows: true,
+                prevArrow: prev,
+                nextArrow: next,
+                rows: 0
+            });
         });
     },
 

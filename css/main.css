@@ -1050,6 +1050,9 @@ html {
   padding: 65px 0; }
 
 .testimonial__slider {
+  position: relative; }
+
+.testimonial__container {
   position: relative;
   padding: 0 60px; }
 
@@ -1074,8 +1077,7 @@ html {
 
 .testimonial__slider-content {
   display: flex;
-  align-items: center;
-  padding: 0 50px; }
+  align-items: center; }
 
 .testimonial__slider-content-img {
   border: 4px solid #95e1d3;
@@ -1084,7 +1086,8 @@ html {
   margin-right: 57px;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  background-color: #f8f8f8; }
 
 .testimonial__slider-content-text {
   padding-top: 5px; }
@@ -1117,3 +1120,78 @@ html {
 .logo__img {
   width: 100%;
   max-width: 100%; }
+
+.gallery {
+  padding: 110px 0 80px; }
+
+.gallery__container {
+  margin-top: 100px; }
+
+.gallery__half {
+  display: flex;
+  padding: 0;
+  min-height: 780px; }
+
+.gallery__half-inner {
+  max-height: 390px;
+  padding: 0; }
+
+.gallery__half-inner--big {
+  max-height: 780px; }
+
+.gallery__half-inner-img-wrap {
+  position: relative;
+  transition: 350ms ease;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+  .gallery__half-inner-img-wrap:hover::before {
+    width: 100%;
+    opacity: 1;
+    transition: 350ms ease; }
+  .gallery__half-inner-img-wrap:hover .gallery__half-inner-img-info {
+    transform: translate(-50%, -50%);
+    transition: 350ms ease; }
+  .gallery__half-inner-img-wrap::before {
+    content: '';
+    height: 100%;
+    width: 1%;
+    opacity: 0;
+    background: linear-gradient(0deg, rgba(238, 213, 137, 0.759541) 14%, #e98383 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 350ms ease; }
+
+.gallery__half-inner-img-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-250%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: 350ms ease; }
+  .gallery__half-inner-img-info i {
+    font-family: "FontAwesome";
+    font-size: 20px;
+    color: #fff;
+    font-style: normal; }
+
+.gallery__half-inner-img-info-title {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff; }
+
+.gallery__half-inner-img-info-txt {
+  font-style: italic;
+  font-size: 18px;
+  color: #fff; }
+
+.gallery__half-inner-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: bottom; }
