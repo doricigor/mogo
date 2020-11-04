@@ -483,7 +483,7 @@
                         <div class="testimonial__slider">
                             <div class="testimonial__slider-content">
                                 <div class="testimonial__slider-content-img">
-                                    <img src="img/testimonial.png" alt="img">
+                                    <img src="img/testimonial2.jpg" alt="img">
                                 </div>
                                 <div class="testimonial__slider-content-text">
                                     <p class="testimonial__slider-content-text-paragraph">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
@@ -494,7 +494,7 @@
                         <div class="testimonial__slider">
                             <div class="testimonial__slider-content">
                                 <div class="testimonial__slider-content-img">
-                                    <img src="img/testimonial.png" alt="img">
+                                    <img src="img/testimonial2.jpg" alt="img">
                                 </div>
                                 <div class="testimonial__slider-content-text">
                                     <p class="testimonial__slider-content-text-paragraph">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
@@ -505,7 +505,7 @@
                         <div class="testimonial__slider">
                             <div class="testimonial__slider-content">
                                 <div class="testimonial__slider-content-img">
-                                    <img src="img/testimonial.png" alt="img">
+                                    <img src="img/testimonial2.jpg" alt="img">
                                 </div>
                                 <div class="testimonial__slider-content-text">
                                     <p class="testimonial__slider-content-text-paragraph">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
@@ -516,6 +516,156 @@
                     </div>
                     <div class="testimonial__slider-arrow testimonial__slider-arrow--right js-testimonial-right">
                         <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="rating">
+                <img class="rating__background" src="img/ratings.jpg" alt="Background image">
+                <div class="container rating__container">
+                    <h3 class="section-pretitle">Happy Clients</h3>
+                    <h2 class="section-title">What people say</h2>
+                    <div class="rating__wrap">
+                        <div class="row">
+                            <div class="col-lg-6 rating__box-wrap">
+                                <div class="rating__box">
+                                    <div class="rating__box-img">
+                                        <img src="img/rating-1.jpg" alt="img">
+                                    </div>
+                                    <div class="rating__box-content">
+                                        <span class="rating__box-content-name">Matthew Dix</span>
+                                        <span class="rating__box-content-rola">Graphic designer</span>
+                                        <div class="entry-content">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 rating__box-wrap">
+                                <div class="rating__box">
+                                    <div class="rating__box-img">
+                                        <img src="img/rating-2.jpg" alt="img">
+                                    </div>
+                                    <div class="rating__box-content">
+                                        <span class="rating__box-content-name">Matthew Dix</span>
+                                        <span class="rating__box-content-rola">Graphic designer</span>
+                                        <div class="entry-content">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 rating__box-wrap">
+                                <div class="rating__box">
+                                    <div class="rating__box-img">
+                                        <img src="img/rating-3.jpg" alt="img">
+                                    </div>
+                                    <div class="rating__box-content">
+                                        <span class="rating__box-content-name">Matthew Dix</span>
+                                        <span class="rating__box-content-rola">Graphic designer</span>
+                                        <div class="entry-content">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 rating__box-wrap">
+                                <div class="rating__box">
+                                    <div class="rating__box-img">
+                                        <img src="img/rating-4.jpg" alt="img">
+                                    </div>
+                                    <div class="rating__box-content">
+                                        <span class="rating__box-content-name">Matthew Dix</span>
+                                        <span class="rating__box-content-rola">Graphic designer</span>
+                                        <div class="entry-content">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="blog">
+                <div class="container">
+                    <h3 class="section-pretitle">Our Stories</h3>
+                    <h2 class="section-title">Latest blog</h2>
+                    <div class="row">
+                        <div class="col-lg-4 blog__box-wrap">
+                            <div class="blog__box">
+                                <div class="blog__box-img-wrap">
+                                    <img class="blog__box-img" src="img/blog-1.jpg" alt="Blog img">
+                                    <div class="blog__box-img-date">
+                                        <span class="blog__box-img-date-day">15</span>
+                                        <span class="blog__box-img-date-month">Jan</span>
+                                    </div>
+                                </div>
+                                <span class="blog__box-title">Lorem ipsum dolor sit</span>
+                                <div class="entry-content">
+                                    <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
+                                <div class="blog__box-info">
+                                    <span class="blog__box-info-text">
+                                        <i class="fas fa-eye"></i>
+                                        542
+                                    </span>
+                                    <span class="blog__box-info-text">
+                                        <i class="fas fa-comment-dots"></i>
+                                        17
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 blog__box-wrap">
+                            <div class="blog__box">
+                                <div class="blog__box-img-wrap">
+                                    <img class="blog__box-img" src="img/blog-2.jpg" alt="Blog img">
+                                    <div class="blog__box-img-date">
+                                        <span class="blog__box-img-date-day">15</span>
+                                        <span class="blog__box-img-date-month">Jan</span>
+                                    </div>
+                                </div>
+                                <span class="blog__box-title">Lorem ipsum dolor sit</span>
+                                <div class="entry-content">
+                                    <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
+                                <div class="blog__box-info">
+                                    <span class="blog__box-info-text">
+                                        <i class="fas fa-eye"></i>
+                                        542
+                                    </span>
+                                    <span class="blog__box-info-text">
+                                        <i class="fas fa-comment-dots"></i>
+                                        17
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 blog__box-wrap">
+                            <div class="blog__box">
+                                <div class="blog__box-img-wrap">
+                                    <img class="blog__box-img" src="img/blog-3.jpg" alt="Blog img">
+                                    <div class="blog__box-img-date">
+                                        <span class="blog__box-img-date-day">15</span>
+                                        <span class="blog__box-img-date-month">Jan</span>
+                                    </div>
+                                </div>
+                                <span class="blog__box-title">Lorem ipsum dolor sit</span>
+                                <div class="entry-content">
+                                    <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
+                                <div class="blog__box-info">
+                                    <span class="blog__box-info-text">
+                                        <i class="fas fa-eye"></i>
+                                        542
+                                    </span>
+                                    <span class="blog__box-info-text">
+                                        <i class="fas fa-comment-dots"></i>
+                                        17
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
