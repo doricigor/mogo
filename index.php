@@ -193,9 +193,7 @@
                     <h3 class="section-pretitle">We work with</h3>
                     <h2 class="section-title">Story About Us</h2>
                     <div class="entry-content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, numquam rem! Totam, dicta nisi iusto dolore molestias obcaecati. Facilis quibusdam hic est enim? Provident earum ea magni cupiditate ipsam? Repellat?
-                        </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                     </div>
                     <div class="accordion__wrap">
                         <div class="accordion__img-wrap">
@@ -519,6 +517,7 @@
                     </div>
                 </div>
             </div>
+            <!-- Rating -->
             <div class="rating">
                 <img class="rating__background" src="img/ratings.jpg" alt="Background image">
                 <div class="container rating__container">
@@ -586,11 +585,12 @@
                     </div>
                 </div>
             </div>
+            <!-- Blog -->
             <div class="blog">
                 <div class="container">
                     <h3 class="section-pretitle">Our Stories</h3>
                     <h2 class="section-title">Latest blog</h2>
-                    <div class="row">
+                    <div class="row blog__row">
                         <div class="col-lg-4 blog__box-wrap">
                             <div class="blog__box">
                                 <div class="blog__box-img-wrap">
@@ -600,7 +600,7 @@
                                         <span class="blog__box-img-date-month">Jan</span>
                                     </div>
                                 </div>
-                                <span class="blog__box-title">Lorem ipsum dolor sit</span>
+                                <span class="blog__box-title">Lorem ipsum dolor sit amet</span>
                                 <div class="entry-content">
                                     <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                 </div>
@@ -610,7 +610,7 @@
                                         542
                                     </span>
                                     <span class="blog__box-info-text">
-                                        <i class="fas fa-comment-dots"></i>
+                                        <i class="fas fa-comment"></i>
                                         17
                                     </span>
                                 </div>
@@ -635,7 +635,7 @@
                                         542
                                     </span>
                                     <span class="blog__box-info-text">
-                                        <i class="fas fa-comment-dots"></i>
+                                        <i class="fas fa-comment"></i>
                                         17
                                     </span>
                                 </div>
@@ -660,7 +660,7 @@
                                         542
                                     </span>
                                     <span class="blog__box-info-text">
-                                        <i class="fas fa-comment-dots"></i>
+                                        <i class="fas fa-comment"></i>
                                         17
                                     </span>
                                 </div>
@@ -668,6 +668,13 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <!-- Map -->
+            <div class="map">
+                <a href="https://goo.gl/maps/XujckAgMvzDf85qy5" target="_blank">
+                    <img class="map__img" src="img/map.jpg" alt="Background image">
+                    <h2 class="map__title">Open map</h2>
+                </a>
             </div>
         </main>
     </div>
